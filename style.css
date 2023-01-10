@@ -8,21 +8,23 @@ body {
 
 /* ==========================================START NAVBAR AREA================================== */
 
-nav {
+/* nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 90%;
-}
+} */
 
-.logo {
+
+.logo a {
   font-family: "Heebo";
   font-style: normal;
   font-weight: 800;
   font-size: 36px;
   line-height: 53px;
   color: #333333;
+  text-decoration: none;
 }
 
 .bar {
@@ -31,7 +33,7 @@ nav {
   align-items: center;
 }
 
-.top {
+.top a {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -40,6 +42,7 @@ nav {
   color: #333333;
   padding: 0px 30px;
   list-style: none;
+  text-decoration: none;
 }
 
 /* ==========================================END NAVBAR AREA================================== */
@@ -452,13 +455,19 @@ header {
   justify-content: space-between;
 }
 
-.footerli {
+.footerli a {
   list-style: none;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 200%;
+  text-decoration: none;
+  
+}
+
+.footerli{
+  list-style: none;
 }
 
 .footerh2 {
