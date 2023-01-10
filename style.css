@@ -8,15 +8,6 @@ body {
 
 /* ==========================================START NAVBAR AREA================================== */
 
-/* nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-} */
-
-
 .logo a {
   font-family: "Heebo";
   font-style: normal;
