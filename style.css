@@ -1,0 +1,680 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins&display=swap");
+
+body {
+  max-width: 1440px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+/* ==========================================START NAVBAR AREA================================== */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.logo {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 53px;
+  color: #333333;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.top {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  padding: 0px 30px;
+  list-style: none;
+}
+
+/* ==========================================END NAVBAR AREA================================== */
+
+/* ====================================START MAIN AREA=========================================== */
+
+/* =====================================HEAD AREA=========================================== */
+
+header {
+  width: 550px;
+  margin: 100px 0px 42px 276px;
+  padding: auto;
+}
+
+.headpara {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2d9cdb;
+}
+
+.headh1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #333333;
+}
+
+/* =====================================HOME SECTION AREA===================================== */
+
+.home {
+  text-align: center;
+  padding-left: 25px;
+  justify-content: center;
+}
+
+.homeimg{
+  width: 90%;
+}
+
+.homepic {
+  border-radius: 18px;
+  width: 90%;
+}
+
+.homecontent {
+  width: 400px;
+  margin: 50px 0px 42px 276px;
+  padding: auto;
+}
+
+.homeh2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  color: #333333;
+}
+
+.homepara {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4f4f4f;
+}
+
+.contactpara {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #828282;
+  margin-top: 80px;
+}
+
+.homeinput {
+  background: #f2f2f2;
+  border-radius: 12px;
+  width: 350px;
+  height: 57px;
+  padding-left: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #bdbdbd;
+  border: none;
+}
+
+.homebtn {
+  background: #2d9cdb;
+  border-radius: 12px;
+  color: #ffffff;
+  width: 94px;
+  height: 49px;
+  border: none;
+  margin-left: -100px;
+  margin-bottom: 2px;
+}
+
+/* ===========================================SERVICE SECTION AREA============================= */
+
+.services {
+  padding: 100px 0px 0px 150px;
+}
+
+.servicesh2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+  width: 346px;
+}
+
+.servicescontent {
+  display: flex;
+  flex-direction: row;
+}
+
+.servicesitem:hover {
+  background: #e0a8a8;
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.servicesitem {
+  padding: 46px 5px 55px 34px;
+  width: 341px;
+  height: 422px;
+}
+
+#edit {
+  border-radius: 16px;
+  background: #2d9cdb;
+  color: #ffffff;
+  font-size: 48px;
+  padding: 5px;
+}
+
+#code {
+  font-size: 48px;
+  padding: 5px;
+  border-radius: 16px;
+  background: #27ae60;
+  color: #ffffff;
+}
+
+#list {
+  font-size: 48px;
+  padding: 5px;
+  border-radius: 16px;
+  background: #eb5757;
+  color: #ffffff;
+}
+
+.servicesh3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  padding-top: 20px;
+}
+
+.servicespara {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  width: 273px;
+  padding-top: 20px;
+}
+
+.servicesbtn {
+  background: #e0e0e0;
+  border-radius: 12px;
+  width: 116px;
+  height: 42px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #828282;
+  margin-top: 30px;
+}
+
+.servicesbtn:hover {
+  background: #2d9cdb;
+  color: #ffffff;
+}
+
+/* =======================================WORK SECTION AREA=============================== */
+
+.work {
+  padding: 100px 0px 0px 150px;
+}
+
+.workh2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+  width: 448px;
+}
+
+.workpara {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #828282;
+}
+
+.workh3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.btndiv {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.workbtn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2d9cdb;
+  border: none;
+  background-color: #ffffff;
+  margin-top: -100px;
+}
+
+.btndiv>span {
+  padding-left: 20px;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2d9cdb;
+  margin-top: -68px;
+}
+
+.workcontent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+}
+
+.workitem {
+  padding-top: 165px;
+  padding-right: 10px;
+}
+
+.workimg {
+  border-radius: 20px;
+  width: 100%;
+}
+
+/* =========================================TEAM AREA======================================= */
+
+.team {
+  padding: 100px 0px 0px 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.teamrow {
+  margin-top: 170px;
+  width: 500px;
+}
+
+.teamh4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #eb5757;
+}
+
+.teamh2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+  width: 300px;
+}
+
+.teampara {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  width: 273px;
+}
+
+.teampic {
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.teamimg {
+  display: flex;
+  flex-direction: row;
+}
+
+.person {
+  margin-top: 150px;
+  padding-left: 30px;
+}
+
+/* ================================CLIENT SECTION AREA========================================== */
+
+.client {
+  padding: 100px 0px 0px 150px;
+}
+
+.clienth2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+  width: 90%;
+}
+
+.clientinfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.clientimg {
+  border-radius: 12px;
+  width: 82px;
+  height: 82px;
+  margin-top: 20px;
+}
+
+.clientinfo1 {
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.infoh3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.infopara {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #828282;
+  margin-top: -10px;
+}
+
+/* ====================================END MAIN AREA================================================= */
+
+/* ======================================START FOOTER AREA=========================================== */
+
+.footmain {
+  padding: 100px 50px 0px 150px;
+  background: #100e1d;
+  color: #f2f2f2;
+  margin-top: 150px;
+}
+
+.footercontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerli {
+  list-style: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+}
+
+.footerh2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 53px;
+}
+
+.footerpara {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #828282;
+}
+
+.footerinput {
+  background: #f2f2f2;
+  border-radius: 12px;
+  width: 350px;
+  height: 57px;
+  padding-left: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #bdbdbd;
+  border: none;
+}
+
+.footerbtn {
+  background: #2d9cdb;
+  border-radius: 12px;
+  color: #ffffff;
+  width: 94px;
+  height: 49px;
+  border: none;
+  margin-left: -100px;
+  margin-bottom: 2px;
+}
+
+.social {
+  margin-top: -15px;
+}
+
+.socialimg {
+  padding-right: 5px;
+  padding-top: 15px;
+}
+
+.foot {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.foot p,
+a {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  color: #bdbdbd;
+  font-family: "Montserrat";
+  padding-bottom: 20px;
+}
+
+/* ======================================END FOOTER AREA============================================ */
+
+/* ===================================START MEDIA QUERRY============================================ */
+
+/* =======================================1200PX MEDIA QUERRY ====================================== */
+
+@media screen and (max-width: 1200px) {
+
+  body{
+    min-width: fit-content;
+  }
+
+  header,
+  .homecontent {
+    margin: 100px 0px 42px 200px;
+  }
+
+  .services,
+  .client,
+  .work {
+    padding: 100px 0px 0px 100px;
+  }
+
+  .team {
+    padding-left: 80px;
+  }
+
+  .servicesitem {
+    padding-left: 0px;
+    width: 40%;
+  }
+}
+
+/* =======================================991PX MEDIA QUERRY ====================================== */
+
+@media screen and (max-width: 991px) {
+  .bar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+  } 
+
+.navbar {
+    justify-content: space-between;
+  }
+
+  body {
+    min-width: fit-content;
+  } 
+
+  .team {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .teamrow {
+    width: 300px;
+    margin-top: 0px;
+  }
+}
+
+/* ====================================900PX MEDIA QUERRY======================================= */
+
+@media screen and (max-width: 900px) {
+  body {
+    min-width: 900px;
+  }
+
+  .servicescontent,
+  .workcontent,
+  .footercontent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footercontent {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btndiv {
+    float: left;
+    margin-top: 100px;
+  }
+
+  .teampara,
+  .homepara,
+  .workpara,
+  .servicespara,
+  .headpara,
+  .infopara,
+  .footerpara {
+    font-weight: 900;
+  }
+
+  .workpara {
+    margin-top: 20px;
+  }
+
+  .workitem,
+  .workitem1 {
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .servicescontent {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .servicesitem {
+    width: 90%;
+    padding: 50px 15px 2px 20px;
+  }
+
+  header,
+  .homecontent {
+    margin-left: 50px;
+  }
+
+  .footerabout,
+  .footercontact {
+    padding-top: 50px;
+  }
+
+  .persons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social {
+    padding: 10px;
+  }
+
+  .footerabout,
+  .footercontact {
+    padding-top: 50px;
+  }
+
+  .team {
+    float: left;
+    padding-bottom: 70px;
+    padding-top: 100px;
+  }
+}
+
+/* ===================================END MEDIA QUERRY============================================ */
